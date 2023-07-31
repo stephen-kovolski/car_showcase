@@ -1,5 +1,7 @@
 import { CarProps } from '@/types';
+import {Fragment} from 'react'
 import React from 'react'
+import {Dialog, Transition} from '@headlessui/react'
 
 interface CarDetailsProps {
     isOpen: boolean;
